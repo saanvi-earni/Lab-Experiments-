@@ -1,0 +1,4 @@
+//Electrical bill
+#include<stdio.h>
+int main()
+{
