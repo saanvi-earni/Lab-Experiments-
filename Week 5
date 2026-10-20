@@ -1,4 +1,4 @@
-//Arithmetic Operations using switch
+//Arithmetic Operations 
 #include<stdio.h>
 int main()
 {
