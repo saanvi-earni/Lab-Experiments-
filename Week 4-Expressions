@@ -1,4 +1,13 @@
-//finding the values of the expressions 
+//Evaluating the expressions
 #include<stdio.h>
 int main()
 {
+ int a,b,c,d,e,f,g,j,i,x,y,z;
+ printf("Enter the values of a,b,c,d,e,f,g,i");
+ scanf("%d%d%d%d%d%d%d%d",&a,&b,&c,&d,&e,&f,&g,&i);
+ x=a+b*c+(d*e)+f*g;
+ y=a/b*c-b+a*d/3;
+ z=a++ +b- --a;
+ j=(i++)+(++i);
+ printf("The values of \nx=%d \ny=%d \nz=%d \nj=%d", x,y,z,j);
+}
