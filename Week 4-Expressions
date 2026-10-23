@@ -1,0 +1,4 @@
+//finding the values of the expressions 
+#include<stdio.h>
+int main()
+{
