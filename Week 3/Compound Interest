@@ -1,0 +1,13 @@
+//compound interest
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+ int p,n,t;
+ float r,amt,ci;
+ printf("Enter the principal amount,rate,time and no of times the interest compounds per year");
+ scanf("%d%f%d%d",&p,&r,&t,&n);
+ amt=p*pow((1+r/n),(n*t));
+ ci=amt-p;
+ printf("Compound interest=%f",ci);
+}
