@@ -1,0 +1,13 @@
+//Marks of 5 subjects in integer and avg in float 
+//type casting 
+#include<stdio.h>
+int main()
+{
+ int m1,m2,m3,m4,m5,t;
+ float avg;
+ printf("Enter the marks of 5 subjects\n");
+ scanf("%d%d%d%d%d",&m1,&m2,&m3,&m4,&m5);
+ t=m1+m2+m3+m4+m5;
+ avg=(float)t/5;
+ printf("\nAverage =%f",avg);
+}
