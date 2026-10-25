@@ -1,0 +1,10 @@
+//Distance travelled by an object 
+#include<stdio.h>
+int main()
+{
+  int s,t,d;
+  printf("\nEnter the speed(m/s) and time(s) taken to cover the distance");
+  scanf("%d%d",&s,&t);
+  d=s*t;
+  printf("\nDistance Travelled by the object is %dm",d);
+}
