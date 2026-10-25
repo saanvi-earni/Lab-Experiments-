@@ -1,0 +1,11 @@
+//Maximum of 3 numbers using Ternary Operator 
+#include<stdio.h>
+int main()
+{
+ int a,b,c;
+ printf("Enter a,b,c values");
+ scanf("%d%d%d",&a,&b,&c);
+ printf("The greatest Value is :");
+ //conditional operator 
+ ((a>b) && (a>c))?printf("%d",a):(b>c)?printf("%d",b):printf("%d",c);
+}
