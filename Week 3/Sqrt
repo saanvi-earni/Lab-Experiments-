@@ -1,1 +1,12 @@
-
+//finding the sqrt of a number 
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  int n;
+  float sqrtn;
+  printf("Enter the number\n");
+  scanf("%d",&n);
+  sqrtn=sqrt(n);
+  printf("\nSquare root of the given number is=%f",sqrtn);
+}
